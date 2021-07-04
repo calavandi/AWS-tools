@@ -9,6 +9,13 @@ Have ~/.aws folder created with credentails.csv containing the API keys in the s
 <pre><code>
 python3 add_ip_addr.py --security_group="Id of your security group" --region="Your AWS region"
 </pre></code>
+
+## To delete your IP from the security group
+<pre><code>
+python3 add_ip_addr.py --security_group="Id of your security group" --region="Your AWS region" --delete=True
+</pre></code>
 security_group is a mandatory argument
 Region defaults to ap-south-1
+
+
 
