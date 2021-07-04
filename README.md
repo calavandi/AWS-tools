@@ -1,4 +1,4 @@
-#Prerequisits
+# Prerequisits
 Have ~/.aws folder created with credentails.csv containing the API keys in the same format given by AWS.
 ## pip requirments
 1. boto3
